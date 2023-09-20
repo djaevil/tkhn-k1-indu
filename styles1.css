@@ -1,0 +1,56 @@
+/* Logo color: rgb(66, 121, 61) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#gdbody {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 60px 100% 400px;
+}
+
+#head1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 5% 5% 1fr 20%;
+    column-gap: 5px;
+    background-color: rgb(58, 106, 53);
+    filter: drop-shadow(1px 1px 1px);
+}
+
+.navbar1 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo1 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#logolink {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logost {
+    width: 80%;
+    height: fit-content;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 1px black);
+    transition: 0.2s;
+}
+
+#logost:hover {
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.2s;
+}
