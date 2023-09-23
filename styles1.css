@@ -1,4 +1,7 @@
-/* Logo color: rgb(66, 121, 61) */
+/* 
+Logo color: rgb(66, 121, 61) 
+Topnav color: rgb(58, 106, 53)
+*/
 
 * {
     margin: 0;
@@ -15,33 +18,34 @@
 #head1 {
     display: grid;
     width: 100%;
-    grid-template-columns: 5% 5% 1fr 20%;
+    grid-template-columns: 75px 75px 1fr 250px;
     column-gap: 5px;
     background-color: rgb(58, 106, 53);
-    filter: drop-shadow(1px 1px 1px);
+    filter: drop-shadow(1px 1px 5px);
 }
 
 .navbar1 {
-    display: flex;
+    display: grid;
     justify-self: center;
     align-self: center;
 }
 
 #logo1 {
-    display: flex;
+    display: grid;
     height: 100%;
     width: 100%;
 }
 
 #logolink {
-    display: flex;
+    display: grid;
     justify-content: center;
-    
+
 }
 
 #logost {
-    width: 80%;
-    height: fit-content;
+    display: flex;
+    width: 45px;
+    height: 45px;
     align-self: center;
     border: 1px solid black;
     border-radius: 30px;
