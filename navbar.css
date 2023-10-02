@@ -1,7 +1,8 @@
 nav {
     display: grid;
     grid-template-columns: 10rem 1fr repeat(3, 8rem) 1fr 10rem;
-    background-color: black;
+    background-color: rgb(42, 21, 21);
+    
 }
 
 nav div{
