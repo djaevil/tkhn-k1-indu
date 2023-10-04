@@ -16,5 +16,28 @@ body {
     display: grid;
     grid-template-rows: 5rem 1fr 5rem;
     background-image: url(images/headerbgimg.jpg);
+    background-size: cover;
 }
 
+#navmenu {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0 0 1rem;
+    column-gap: 0.5rem;
+
+
+}
+
+#menubutton {
+    border: none;
+    background-color: transparent;
+    color: white;
+
+}
+
+#menutext {
+    color: white;
+
+
+
+}
