@@ -14,30 +14,64 @@ body {
 
 #headergridlayout-bgimg {
     display: grid;
-    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-rows: repeat(2, 5rem) 1fr 5rem;
     background-image: url(images/headerbgimg.jpg);
     background-size: cover;
 }
 
-#navmenu {
-    display: flex;
-    flex-direction: row;
-    margin: 1rem 0 0 1rem;
-    column-gap: 0.5rem;
-
-
+#headertopbar {
+    display: grid;
+    grid-template-columns: 8rem 1fr 20rem 1fr 8rem;
+    margin: 0 1rem 0 1rem;
+    border-bottom: 1px solid white;
 }
 
-#menubutton {
+#menucnt {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.button1 {
     border: none;
     background-color: transparent;
     color: white;
-
+    align-self: center;
+    scale: 1.3;
 }
 
-#menutext {
+.button1:hover {
+    cursor: pointer; 
+}
+
+#headerlogo {
+    width: 20rem;
+    max-height: 40px;
+    align-self: center;
+}
+
+#headerlogotxt {
     color: white;
+    font-size: 42px;
+    align-self: center;
+    justify-self: center;
+}
 
+#headerweekcnt {
+    display: flex;
+    margin-left: auto;
+}
 
+#headerweekcnt p {
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    margin-right: 0.5rem;
+}
 
+#headertop1 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
 }
