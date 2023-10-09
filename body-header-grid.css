@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(47, 22, 22);
 }
 
 #basegridlayout {
     display: grid;
-    grid-template-rows: 100vh 100rem 15rem;
+    grid-template-rows: 100vh 90rem 15rem;
 }
 
 #headergridlayout-bgimg {
@@ -74,4 +74,31 @@ body {
     justify-content: center;
     color: white;
     font-size: 24px;
+}
+
+#headerbottom {
+    display: grid;
+    justify-content: center;
+}
+
+#headerbottombox {
+    display: grid;
+    width: 20rem;
+    justify-items: center; 
+    border-top: 1px solid white;
+
+}
+
+#headerbottombox i {
+    text-decoration: none;
+    position: relative;
+    height: fit-content;
+    margin-top: 1.5rem;
+    color: white;
+    scale: 1.4;
+}
+
+#headerbottombox i:hover {
+    cursor: pointer;
+
 }

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#maingridlayout {
+    display: grid;
+    grid-template-rows: 15rem 1fr;
+    grid-template-columns: 75% 25%;
+    box-shadow: inset 0px 10px 10px black;
+}
+
+#maintoptext {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+#maintoptext p {
+    color: white;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    margin-top: 2rem;
+}
+
+#articlegridlayout {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 50%);
+}
+
+#articlegridlayout article {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.articlecnt {
+    display: grid;
+    height: 25rem;
+    width: 15rem;
+    background-color: black;
+}
