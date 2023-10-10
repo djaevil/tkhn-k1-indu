@@ -8,13 +8,13 @@
 
 #maingridlayout {
     display: grid;
-    grid-template-rows: 10rem 1fr;
-    grid-template-columns: 75% 25%;
     box-shadow: inset 0px 10px 10px black;
 }
 
 #maintoptext {
     display: grid;
+    height: 6rem;
+    width: 70rem;
     justify-content: center;
     align-self: center;
     border-bottom: 2px solid #f9f5ec;
