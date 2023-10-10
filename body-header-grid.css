@@ -9,7 +9,7 @@ body {
 
 #basegridlayout {
     display: grid;
-    grid-template-rows: 100vh 90rem 15rem;
+    grid-template-rows: 100vh 120rem 15rem;
 }
 
 #headergridlayout-bgimg {
@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-columns: 8rem 1fr 20rem 1fr 8rem;
     margin: 0 1rem 0 1rem;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #f9f5ec;
 }
 
 #menucnt {
@@ -34,7 +34,7 @@ body {
 .button1 {
     border: none;
     background-color: transparent;
-    color: white;
+    color: #f9f5ec;
     align-self: center;
     scale: 1.3;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 #headerlogotxt {
-    color: white;
+    color: #f9f5ec;
     font-size: 42px;
     align-self: center;
     justify-self: center;
@@ -62,7 +62,7 @@ body {
 }
 
 #headerweekcnt p {
-    color: white;
+    color: #f9f5ec;
     font-size: 20px;
     align-self: center;
     margin-right: 0.5rem;
@@ -72,7 +72,7 @@ body {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-    color: white;
+    color: #f9f5ec;
     font-size: 24px;
 }
 
@@ -94,7 +94,7 @@ body {
     position: relative;
     height: fit-content;
     margin-top: 1.5rem;
-    color: white;
+    color: #f9f5ec;
     scale: 1.4;
 }
 

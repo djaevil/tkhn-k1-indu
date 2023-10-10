@@ -1,3 +1,6 @@
+/* Color: #f9f5ec */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +8,7 @@
 
 #maingridlayout {
     display: grid;
-    grid-template-rows: 15rem 1fr;
+    grid-template-rows: 10rem 1fr;
     grid-template-columns: 75% 25%;
     box-shadow: inset 0px 10px 10px black;
 }
@@ -14,31 +17,51 @@
     display: grid;
     justify-content: center;
     align-self: center;
-    margin-top: 1rem;
+    border-bottom: 2px solid #f9f5ec;
 }
 
 #maintoptext p {
-    color: white;
+    color: #f9f5ec;
     font-size: 30px;
-    border-bottom: 1px solid white;
-    margin-top: 2rem;
+    margin: 2rem 0 1rem 0;
+
 }
 
 #articlegridlayout {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(2, 50%);
+    justify-content: space-evenly;
+    grid-template-rows: repeat(3, 32rem);
+    grid-template-columns: repeat(auto-fill, 36rem);
+    margin: 0 1rem 0 1rem;
+    gap: 1rem;
 }
 
 #articlegridlayout article {
     display: grid;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
     align-content: center;
+    background-color: #f9f5ec;
 }
 
-.articlecnt {
-    display: grid;
-    height: 25rem;
-    width: 15rem;
-    background-color: black;
+.articleimg {
+    height: 427px;
+    width: 120px;
+    padding: 2rem;
+    border-right: 2px solid black;
+}
+
+.articleimg:hover {
+    cursor: pointer;
+}
+
+.wineimg-vranec {
+    height: 446px;
+    width: 104px;
+    padding: 2.5rem;
+}
+
+.wineimg-ramos {
+    height: 427px;
+    width: 104px;
+    padding: 2.5rem;
 }
