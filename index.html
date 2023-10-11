@@ -6,6 +6,7 @@
     <title>Dine w/ WINE</title>
     <link rel="stylesheet" href="body-header-grid.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Playfair+Display">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="bgimgheader" type="image/jpg" href="images/headerbgimg.jpg" sizes="100vh">
@@ -14,42 +15,46 @@
 <body style="font-family: 'Playfair Display';">
     <div id="basegridlayout">
         <header id="headergridlayout-bgimg">
-            <div id="headertopbar">
-                <nav id="menucnt">
-                    <button class="material-icons button1">menu</button>
-                </nav>
+            <nav id="headertopbar">
+                <div id="menucnt">
+                    <p class="headernavtxt-btn">2023</p>
+                </div>
                 <br>
                 <p id="headerlogotxt">DINE w/ WINE</p>
                 <br>
                 <span id="headerweekcnt">
                     <p>Week 41</p>
-                    <button class="material-icons button1">expand_more</button>
+                    <button class="material-icons headernavtxt-btn">expand_more</button>
                 </span>
-            </div>
+            </nav>
             <div id="headertop1">
                 <p>Your weekly newspaper for wine enthusiasts</p>
             </div>
             <br>
             <div id="headerbottom">
                 <span id="headerbottombox">
-                    <i class="material-icons">arrow_downward</i>
+                    <button class="material-icons headernavtxt-btn">arrow_downward</button>
                 </span>
             </div>
         </header>
         <main id="maingridlayout">
-            <span id="maintoptext">
-                <p>This week's recommendations:</p>
+            <span class="maintoptext">
+                <p>This week's highlights:</p>
             </span>
-            <br>
+            <span class="maintoptext">
+                <p>Articles:</p>
+            </span>
             <div id="articlegridlayout">
                 <article>
-                    <img class="articleimg wineimg-vranec" src="images/WineTable_Vranec.png" alt="Vranec1">
-                    <div>
-
+                    <img class="articleimg" src="images/WineTable_Vranec.png" alt="Vranec1">
+                    <div class="articlecnt">
+                        <h1></h1>
+                        <p></p>
+                        <a href="#"></a>
                     </div>
                 </article>
                 <article>
-                    <img class="articleimg wineimg-ramos" src="images/ramos.png" alt="ramos2">
+                    <img class="articleimg" src="images/ramos.png" alt="ramos2">
                 </article>
                 <article>
                     <img class="articleimg" src="images/gerard.png" alt="gerard3">
@@ -68,7 +73,7 @@
             </aside>
         </main>
         <footer>
-            <p style="color: white;">sdfsdfsd</p>
+            <p>sdfsdfsd</p>
         </footer>
     </div>
 </body>
