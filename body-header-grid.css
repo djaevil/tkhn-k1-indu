@@ -1,3 +1,7 @@
+/*
+Color: rgb(47, 22, 22)
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +14,6 @@ body {
 
 #basegridlayout {
     display: grid;
-
     grid-template-rows: 100vh 1fr 10rem;
 }
 
@@ -47,7 +50,6 @@ body {
 button:hover {
     cursor: pointer; 
 }
-
 
 #headerlogo {
     width: 20rem;
