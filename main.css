@@ -61,11 +61,11 @@
 
 .articlecnt {
     display: grid;
-    max-width: 40rem;
+    max-width:50rem;
     grid-template-rows: 15% 1fr repeat(3, 12%);
     background-color: #f9f5ec;
     padding: 1.5rem;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 15px;
     box-shadow: 2px 10px 20px;
     cursor: default;
@@ -125,7 +125,7 @@
     text-decoration: none;
     color: #f9f5ec;
     background-color: black;
-    padding: 5px;
+    padding: 6px;
     border-radius: 5px;
     transition: 0.2s;
 }

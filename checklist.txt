@@ -1,0 +1,10 @@
+- sidebar artiklar
+- sidebar ads
+- footer
+- hoverfunktion navbar
+- js.knapp header
+
+extra:
+
+- små matikoner på main artiklarna
+- "about Cork/Dork" sida ovanför main och sidebar
