@@ -17,13 +17,13 @@
     row-gap: 2rem;
 }
 
-.articlecnt-sidebar-gridrows {  
+.article-content-sidebar-gridrows {  
     width: 100%;
     grid-template-rows: auto 1fr auto;
     padding: 1rem;
 }
 
-.articlecnt-sidebar-gridrows i {
+.article-content-sidebar-gridrows i {
     font-size: 20px;
     margin-bottom: 1rem;
 }

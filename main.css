@@ -1,6 +1,6 @@
 /* Color: #f9f5ec */
 
-#maingridlayout {
+#main-grid-layout {
     display: grid;
     grid-template-rows: 9rem 1fr;
     grid-template-columns: 70% 1fr;
@@ -8,7 +8,7 @@
     margin: 0 2rem 0 2rem;
 }
 
-.maintoptext {
+.main-top-text {
     display: grid;
     justify-content: center;
     align-self: center;
@@ -16,12 +16,12 @@
     border-bottom: 2px solid #f9f5ec;
 }
 
-.maintoptext p {
+.main-top-text p {
     margin: 2rem 0 1rem 0;
     color: #f9f5ec;
 }
 
-#articlegridlayout {
+#article-grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fill, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -30,7 +30,7 @@
     border-right: 2px solid #f9f5ec;
 }
 
-#articlegridlayout article {
+#article-grid-layout article {
     display: grid;
     min-height: 100%;
     grid-template-columns: auto 1fr;
@@ -44,7 +44,7 @@
     background-color: rgb(47, 22, 22);
 }
 
-.wineimg {
+.wine-img {
     max-height: auto;
     max-width: 7rem;
     margin: 0 7rem 0 7rem;
@@ -53,13 +53,13 @@
     transition-duration: 0.4s;
 }
 
-.wineimg:hover {
+.wine-img:hover {
     cursor: pointer;
     filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
     scale: 1.01;
 }
 
-.articlecnt {
+.article-content {
     display: grid;
     max-width:50rem;
     grid-template-rows: 15% 1fr repeat(3, 12%);
