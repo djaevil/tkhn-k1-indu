@@ -35,7 +35,7 @@
             <br>
             <div id="header-bottom">
                 <span id="header-bottom-box">
-                    <button class="material-icons header-button">arrow_downward</button>
+                    <button class="material-icons header-button" onclick="scrollDown()">arrow_downward</button>
                 </span>
             </div>
         </header>
@@ -261,6 +261,15 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        function scrollDown() {
+            window.scrollTo({
+                top: window.innerHeight,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </body>
 </html>
 
